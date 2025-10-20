@@ -2,6 +2,10 @@
 	import { resolve } from '$app/paths';
 </script>
 
+<svelte:head>
+	<title>About - PokerScrum</title>
+</svelte:head>
+
 <section>
 	<h1>About PokerScrum</h1>
 </section>

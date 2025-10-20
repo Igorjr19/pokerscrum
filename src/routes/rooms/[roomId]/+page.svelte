@@ -187,6 +187,10 @@
 	}
 </script>
 
+<svelte:head>
+	<title>{hasJoined ? `Room ${roomId} - PokerScrum` : `Join Room ${roomId} - PokerScrum`}</title>
+</svelte:head>
+
 <div class="container">
 	{#if !hasJoined}
 		<div class="join-screen">
